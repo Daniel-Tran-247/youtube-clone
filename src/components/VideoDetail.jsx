@@ -23,7 +23,7 @@ export default function VideoDetail() {
   if (!videoDetail?.snippet) return "Loading...";
 
   const {
-    snippet: { title, channelId, channelTitle, description, tags },
+    snippet: { title, channelId, channelTitle },
     statistics: { viewCount, likeCount },
   } = videoDetail;
 
