@@ -1,12 +1,11 @@
 import { CheckCircle } from "@mui/icons-material";
-import { Card, CardContent, CardMedia, Typography, Stack } from "@mui/material";
+import { Card, CardContent, CardMedia, Stack, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 import {
   demoChannelTitle,
   demoChannelUrl,
   demoThumbnailUrl,
-  demoVideoTitle,
-  demoVideoUrl,
+  demoVideoTitle
 } from "../utils/constants";
 
 export default function PlayListCard({

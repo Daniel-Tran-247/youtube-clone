@@ -1,10 +1,10 @@
-import { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
-import ReactPlayer from "react-player";
-import { Typography, Box, Stack } from "@mui/material";
 import { CheckCircle } from "@mui/icons-material";
-import { Videos } from "./";
+import { Box, Stack, Typography } from "@mui/material";
+import { useEffect, useState } from "react";
+import ReactPlayer from "react-player";
+import { Link, useParams } from "react-router-dom";
 import { fetchFromAPI } from "../utils/FetchFromAPI";
+import { Videos } from "./";
 
 export default function VideoDetail() {
   const [videoDetail, setVideoDetail] = useState(null);

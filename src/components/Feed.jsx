@@ -1,9 +1,8 @@
-import React from "react";
-import { useState, useEffect } from "react";
-import { Stack, Box, Typography } from "@mui/material";
+import { Box, Stack, Typography } from "@mui/material";
+import React, { useEffect, useState } from "react";
+import { fetchFromAPI } from "../utils/FetchFromAPI";
 import SideBar from "./SideBar";
 import Videos from "./Videos";
-import { fetchFromAPI } from "../utils/FetchFromAPI";
 export default function Feed() {
   const [selectedCategory, setSelectedCategory] = useState("New");
   const [videos, setVideos] = useState([]);

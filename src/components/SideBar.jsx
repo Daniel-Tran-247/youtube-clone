@@ -1,6 +1,6 @@
+import { Stack } from "@mui/material";
 import React from "react";
 import { categories } from "../utils/constants";
-import { Box, Typography, Stack } from "@mui/material";
 export default function SideBar({ selectedCategory, setSelectedCategory }) {
   return (
     <Stack

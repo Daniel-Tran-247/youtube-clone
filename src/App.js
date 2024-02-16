@@ -1,13 +1,13 @@
-import "./index.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import {
-  NavBar,
-  Feed,
-  VideoDetail,
   ChannelDetail,
+  Feed,
+  NavBar,
   SearchFeed,
+  VideoDetail,
 } from "./components";
+import "./index.css";
 
 function App() {
   return (
